@@ -62,14 +62,14 @@
 
             <Button
                 android:id="@+id/main_btn_ics"
-                style="@style/Evento1"
+                style="@style/Evento9"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_5" />
 
             <Button
                 android:id="@+id/main_btn_jellybean"
-                style="@style/HomeButton"
+                style="@style/Evento5"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_6" />
@@ -82,21 +82,21 @@
             android:orientation="horizontal">
             <Button
                 android:id="@+id/main_btn_7"
-                style="@style/HomeButton"
+                style="@style/Evento6"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_7" />
 
             <Button
                 android:id="@+id/main_btn_8"
-                style="@style/HomeButton"
+                style="@style/Evento7"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_8" />
 
             <Button
                 android:id="@+id/main_btn_9"
-                style="@style/HomeButton"
+                style="@style/Evento8"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_9" />
@@ -109,21 +109,21 @@
             android:orientation="horizontal">
             <Button
                 android:id="@+id/main_btn_10"
-                style="@style/HomeButton"
+                style="@style/Evento10"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_10" />
 
             <Button
                 android:id="@+id/main_btn_11"
-                style="@style/HomeButton"
+                style="@style/Evento11"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_11" />
 
             <Button
                 android:id="@+id/main_btn_12"
-                style="@style/HomeButton"
+                style="@style/Evento12"
                 android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_12"/>
