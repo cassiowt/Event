@@ -2,9 +2,13 @@
     <string name="app_name">Event</string>
     <string name="eventTitle">AGES Event</string>
     <string name="HomeActivityTitle">CSBC 2016</string>
-    <string name="EclairActivityTitle">Activity EXEMPLO</string>
+    <string name="HomeActivitySubTitle">XXXVI Congresso da Sociedade Brasileira de Computação</string>
+    <string name="ActivityEvento1Title">43º SEMISH - Seminário Integrado de Software e Hardware</string>
+    <string name="homeDate">Eventos</string>
+    <string name="homeHora">Horas</string>
+    <string name="homeSala">Salas</string>
     <string name="Evento_1">SEMSH</string>
-    <string name="txtEvento_1">43º SEMISH - Seminário Integrado de Software e Hardware</string>
+    <string name="txtEvento_1"></string>
     <string name="Evento_2">CTD</string>
     <string name="Evento_3">JAI</string>
     <string name="Evento_4">WEI</string>
@@ -17,4 +21,9 @@
     <string name="Evento_11">WCN</string>
     <string name="Evento_12">DesafIE</string>
     <string name="title_activity_feedback">FeedbackActivity</string>
+
+    <string name="infoAGES">Copyright AGES 2016|by AGES Team</string>
+
+
+
 </resources>

@@ -30,9 +30,9 @@ public abstract class DashBoardActivity extends Activity {
         if(!btnHomeVisible)
             btnHome.setVisibility(View.INVISIBLE);
 
-        Button btnFeedback = (Button) inflated.findViewById(R.id.btnFeedback);
+       /* Button btnFeedback = (Button) inflated.findViewById(R.id.btnFeedback);
         if(!btnFeedbackVisible)
-            btnFeedback.setVisibility(View.INVISIBLE);
+            btnFeedback.setVisibility(View.INVISIBLE);*/
 
     }
 

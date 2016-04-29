@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorIce"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ages.event.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_csbc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HomeActivityTitle"
+        style="@style/heading_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HomeActivitySubTitle"
+        style="@style/sub_heading_text"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_btn_homeDate"
+            style="@style/Evento1"
+            android:drawableTop="@drawable/date_64"
+            android:onClick="onButtonClicker"
+            android:text="@string/homeDate" />
+
+        <Button
+            android:id="@+id/main_btn_froyo"
+            style="@style/Evento2"
+            android:drawableTop="@drawable/time_64"
+            android:onClick="onButtonClicker"
+            android:text="@string/homeHora" />
+
+        <Button
+            android:id="@+id/main_btn_gingerbread"
+            style="@style/Evento6"
+            android:drawableTop="@drawable/door_64"
+            android:onClick="onButtonClicker"
+            android:text="@string/homeSala" />
+
+    </LinearLayout>
+
+    <include layout="@layout/foot"/>
+</LinearLayout>

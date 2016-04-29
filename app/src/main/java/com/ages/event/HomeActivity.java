@@ -26,32 +26,32 @@ public class HomeActivity extends DashBoardActivity {
 
         switch (v.getId()) {
             case R.id.main_btn_eclair:
-                intent = new Intent(this, Activity_Eclair.class);
+                intent = new Intent(this, Activity_Evento_1.class);
                 startActivity(intent);
                 break;
 
             case R.id.main_btn_froyo:
-                intent = new Intent(this, Activity_Eclair.class);
+                intent = new Intent(this, Activity_Evento_1.class);
                 startActivity(intent);
                 break;
 
             case R.id.main_btn_gingerbread:
-                intent = new Intent(this, Activity_Eclair.class);
+                intent = new Intent(this, Activity_Evento_1.class);
                 startActivity(intent);
                 break;
 
             case R.id.main_btn_honeycomb:
-                intent = new Intent(this, Activity_Eclair.class);
+                intent = new Intent(this, Activity_Evento_1.class);
                 startActivity(intent);
                 break;
 
             case R.id.main_btn_ics:
-                intent = new Intent(this, Activity_Eclair.class);
+                intent = new Intent(this, Activity_Evento_1.class);
                 startActivity(intent);
                 break;
 
             case R.id.main_btn_jellybean:
-                intent = new Intent(this, Activity_Eclair.class);
+                intent = new Intent(this, Activity_Evento_1.class);
                 startActivity(intent);
                 break;
             default:
