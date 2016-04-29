@@ -28,7 +28,7 @@
     </style>
     <style name="Evento1">
         <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center_horizontal</item>
@@ -58,6 +58,17 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:background">@color/fundoEvento3</item>
+    </style>
+    <style name="Evento4">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/fundoEvento4</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

@@ -49,7 +49,7 @@
 
         <Button
             android:id="@+id/btnFeedback"
-            android:layout_width="fill_parent"
+            android:layout_width="64dp"
             android:layout_height="wrap_content"
             android:background="@drawable/help_64"
             android:onClick="btnFeedbackClick" />
