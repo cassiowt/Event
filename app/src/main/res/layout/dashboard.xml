@@ -26,21 +26,21 @@
 
             <Button
                 android:id="@+id/main_btn_eclair"
-                style="@style/HomeButton"
+                style="@style/Evento1"
                 android:drawableTop="@drawable/evento_default"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_1" />
 
             <Button
                 android:id="@+id/main_btn_froyo"
-                style="@style/HomeButton"
+                style="@style/Evento2"
                 android:drawableTop="@drawable/evento_default"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_2" />
 
             <Button
                 android:id="@+id/main_btn_gingerbread"
-                style="@style/HomeButton"
+                style="@style/Evento3"
                 android:drawableTop="@drawable/evento_default"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_3" />
@@ -80,8 +80,53 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="horizontal">
+            <Button
+                android:id="@+id/main_btn_7"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/evento_default"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_7" />
 
+            <Button
+                android:id="@+id/main_btn_8"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/evento_default"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_8" />
 
+            <Button
+                android:id="@+id/main_btn_9"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/evento_default"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_9" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/main_btn_10"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/evento_default"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_10" />
+
+            <Button
+                android:id="@+id/main_btn_11"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/evento_default"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_11" />
+
+            <Button
+                android:id="@+id/main_btn_12"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/evento_default"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_12"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

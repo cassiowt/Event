@@ -13,7 +13,7 @@ public class HomeActivity extends DashBoardActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dashboard);
-        setHeader(getString(R.string.HomeActivityTitle), false, true);
+        setHeader(getString(R.string.HomeActivityTitle), true, true);
     }
 
     /**

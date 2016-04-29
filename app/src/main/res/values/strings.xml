@@ -1,14 +1,20 @@
 <resources>
     <string name="app_name">Event</string>
     <string name="eventTitle">AGES Event</string>
-    <string name="HomeActivityTitle">Titulo Principal</string>
+    <string name="HomeActivityTitle">CSBC 2016</string>
     <string name="EclairActivityTitle">Activity EXEMPLO</string>
-    <string name="Evento_1">Evento Um</string>
-    <string name="Evento_2">Evento Dois</string>
-    <string name="Evento_3">Evento Três</string>
-    <string name="Evento_4">Evento Quatro</string>
-    <string name="Evento_5">Evento Cinco</string>
-    <string name="Evento_6">Evento Seis</string>
-    <string name="Evento_7">Evento Sete</string>
+    <string name="Evento_1">SEMSH</string>
+    <string name="txtEvento_1">43º SEMISH - Seminário Integrado de Software e Hardware</string>
+    <string name="Evento_2">CTD</string>
+    <string name="Evento_3">JAI</string>
+    <string name="Evento_4">WEI</string>
+    <string name="Evento_5">WIM</string>
+    <string name="Evento_6">ETC</string>
+    <string name="Evento_7">WCAMA</string>
+    <string name="Evento_8">WPerformance</string>
+    <string name="Evento_9">WIT</string>
+    <string name="Evento_10">COMPUTEC</string>
+    <string name="Evento_11">WCN</string>
+    <string name="Evento_12">DesafIE</string>
     <string name="title_activity_feedback">FeedbackActivity</string>
 </resources>

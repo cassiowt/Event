@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary" >
+    android:background="@color/colorIce" >
 
     <LinearLayout
         android:id="@+id/panelIconLeft"
@@ -10,13 +10,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:layout_margin="5dp" >
+        android:layout_margin="3dp" >
 
         <Button
             android:id="@+id/btnHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/facebook_logo"
+            android:background="@drawable/logo_csbc"
             android:onClick="btnHomeClick" />
     </LinearLayout>
 
@@ -37,7 +37,7 @@
         android:marqueeRepeatLimit="marquee_forever"
         android:singleLine="true"
         android:text="@string/eventTitle"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/black" />
 
     <LinearLayout
         android:id="@+id/panelIconRight"
@@ -45,13 +45,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_margin="5dp" >
+        android:layout_margin="3dp" >
 
         <Button
             android:id="@+id/btnFeedback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/alerta"
+            android:background="@color/colorPrimaryDark"
             android:onClick="btnFeedbackClick" />
     </LinearLayout>
 
