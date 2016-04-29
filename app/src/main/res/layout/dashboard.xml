@@ -27,21 +27,21 @@
             <Button
                 android:id="@+id/main_btn_eclair"
                 style="@style/Evento1"
-                android:drawableTop="@drawable/evento_default"
+                android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_1" />
 
             <Button
                 android:id="@+id/main_btn_froyo"
                 style="@style/Evento2"
-                android:drawableTop="@drawable/evento_default"
+                android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_2" />
 
             <Button
                 android:id="@+id/main_btn_gingerbread"
                 style="@style/Evento3"
-                android:drawableTop="@drawable/evento_default"
+                android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_3" />
 
@@ -56,21 +56,21 @@
             <Button
                 android:id="@+id/main_btn_honeycomb"
                 style="@style/HomeButton"
-                android:drawableTop="@drawable/evento_default"
+                android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_4" />
 
             <Button
                 android:id="@+id/main_btn_ics"
                 style="@style/HomeButton"
-                android:drawableTop="@drawable/evento_default"
+                android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_5" />
 
             <Button
                 android:id="@+id/main_btn_jellybean"
                 style="@style/HomeButton"
-                android:drawableTop="@drawable/evento_default"
+                android:drawableTop="@drawable/evento_default_small"
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_6" />
         </LinearLayout>
