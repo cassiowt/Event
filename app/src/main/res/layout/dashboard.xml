@@ -10,7 +10,9 @@
         android:layout_height="wrap_content"
         android:inflatedId="@+id/header"
         android:layout="@layout/header" />
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -128,5 +130,89 @@
                 android:onClick="onButtonClicker"
                 android:text="@string/Evento_12"/>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/main_btn_13"
+                style="@style/Evento13"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_13" />
+
+            <Button
+                android:id="@+id/main_btn_14"
+                style="@style/Evento14"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_14" />
+
+            <Button
+                android:id="@+id/main_btn_15"
+                style="@style/Evento3"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/main_btn_16"
+                style="@style/Evento3"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_3" />
+
+            <Button
+                android:id="@+id/main_btn_17"
+                style="@style/Evento16"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_18" />
+            <Button
+                android:id="@+id/main_btn_18"
+                style="@style/Evento18"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_19" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/main_btn_19"
+                style="@style/Evento19"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_20" />
+
+            <Button
+                android:id="@+id/main_btn_20"
+                style="@style/Evento20"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_21" />
+            <Button
+                android:id="@+id/main_btn_21"
+                style="@style/Evento21"
+                android:drawableTop="@drawable/evento_default_small"
+                android:onClick="onButtonClicker"
+                android:text="@string/Evento_22" />
+
+
+        </LinearLayout>
+
     </LinearLayout>
+</ScrollView>
 </LinearLayout>
