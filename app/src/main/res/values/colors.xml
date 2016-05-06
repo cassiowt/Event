@@ -17,6 +17,13 @@
     <color name="fundoEvento10">#fd0001</color>
     <color name="fundoEvento11">#e4e4e4</color>
     <color name="fundoEvento12">#70309f</color>
+    <color name="fundoEvento13">#fdfdfe</color>
+    <color name="fundoEvento14">#538035</color>
+    <color name="fundoEvento16">#cb00fe</color>
 
-
+    <color name="fundoEvento18">#cbfd98</color>
+    <color name="fundoEvento19">#0098cb</color>
+    <color name="fundoEvento20">#fd0001</color>
+    <color name="fundoEvento21">#fd66fe</color>
+    <color name="fundoEvento22">#cb66fe</color>
 </resources>

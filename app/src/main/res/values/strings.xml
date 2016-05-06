@@ -20,6 +20,16 @@
     <string name="Evento_10">COMPUTEC</string>
     <string name="Evento_11">WCN</string>
     <string name="Evento_12">DesafIE</string>
+    <string name="Evento_13">WCN + CloudScape Brazil</string>
+    <string name="Evento_14">Reunião com Secretários Regionais</string>
+
+    <string name="Evento_17">Reunião Comissão de Educação</string>
+    <string name="Evento_18">DesafIE!</string>
+    <string name="Evento_19">3º ENCompIF</string>
+    <string name="Evento_20">BreSci</string>
+    <string name="Evento_21">Failcon Brazil</string>
+    <string name="Evento_22">SBCUP</string>
+
     <string name="title_activity_feedback">FeedbackActivity</string>
 
     <string name="infoAGES">Copyright AGES 2016|by AGES Team</string>
