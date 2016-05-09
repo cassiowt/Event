@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorIce"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ages.event.MainActivity">
 
@@ -15,45 +14,65 @@
         android:src="@drawable/logo_csbc" />
 
     <TextView
+        style="@style/heading_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/HomeActivityTitle"
-        style="@style/heading_text"/>
+        android:text="@string/HomeActivityTitle" />
 
     <TextView
+        style="@style/sub_heading_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/HomeActivitySubTitle"
-        style="@style/sub_heading_text"/>
+        android:text="@string/HomeActivitySubTitle" />
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:background="@drawable/borda_1"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/main_btn_homeDate"
-            style="@style/Evento1"
+            style="@style/HomeButton"
             android:drawableTop="@drawable/date_64"
             android:onClick="onButtonClicker"
             android:text="@string/homeDate" />
 
         <Button
             android:id="@+id/main_btn_froyo"
-            style="@style/Evento2"
+            style="@style/HomeButton"
             android:drawableTop="@drawable/time_64"
             android:onClick="onButtonClicker"
             android:text="@string/homeHora" />
 
         <Button
             android:id="@+id/main_btn_gingerbread"
-            style="@style/Evento6"
+            style="@style/HomeButton"
             android:drawableTop="@drawable/door_64"
             android:onClick="onButtonClicker"
             android:text="@string/homeSala" />
 
     </LinearLayout>
 
-    <include layout="@layout/foot"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noticias"
+            android:textSize="24dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+    </LinearLayout>
+
+    <include layout="@layout/foot" />
 </LinearLayout>

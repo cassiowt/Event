@@ -7,8 +7,12 @@
     <string name="homeDate">Eventos</string>
     <string name="homeHora">Horas</string>
     <string name="homeSala">Salas</string>
-    <string name="Evento_1">SEMSH</string>
     <string name="txtEvento_1"></string>
+
+    <string name="Reuniao">Reuniões</string>
+    <string name="Reuniao_1">Reunião Comissão de Educação</string>
+
+    <string name="Evento_1">SEMSH</string>
     <string name="Evento_2">CTD</string>
     <string name="Evento_3">JAI</string>
     <string name="Evento_4">WEI</string>
@@ -17,18 +21,17 @@
     <string name="Evento_7">WCAMA</string>
     <string name="Evento_8">WPerformance</string>
     <string name="Evento_9">WIT</string>
-    <string name="Evento_10">COMPUTEC</string>
-    <string name="Evento_11">WCN</string>
-    <string name="Evento_12">DesafIE</string>
-    <string name="Evento_13">WCN + CloudScape Brazil</string>
-    <string name="Evento_14">Reunião com Secretários Regionais</string>
-
-    <string name="Evento_17">Reunião Comissão de Educação</string>
-    <string name="Evento_18">DesafIE!</string>
-    <string name="Evento_19">3º ENCompIF</string>
-    <string name="Evento_20">BreSci</string>
-    <string name="Evento_21">Failcon Brazil</string>
-    <string name="Evento_22">SBCUP</string>
+    <string name="Evento_10">SBSC</string>
+    <string name="Evento_11">BrasNAM</string>
+    <string name="Evento_12">Computec</string>
+    <string name="Evento_13">WCN Cloud.Br</string>
+    <string name="Evento_14">Workshop Pre-IETF</string>
+    <string name="Evento_15">DesafIE!</string>
+    <string name="Evento_16">BreSci</string>
+    <string name="Evento_17">SBCUP</string>
+    <string name="Evento_18">PET WEI</string>
+    <string name="Evento_19">ENCompIF</string>
+    <string name="Evento_20">Failcon Brazil</string>
 
     <string name="title_activity_feedback">FeedbackActivity</string>
 

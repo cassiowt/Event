@@ -26,235 +26,31 @@
     </style>
     <style name="HomeButton">
         <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorIce</item>
-        <item name="android:background">@null</item>
-    </style>
-    <style name="Evento1">
-        <item name="android:layout_gravity">center_vertical</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:textSize">@dimen/text_size_small</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Home">
         <item name="android:textColor">@color/colorIce</item>
         <item name="android:background">@color/fundoEvento1</item>
     </style>
-    <style name="Evento2">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorIce</item>
-        <item name="android:background">@color/fundoEvento2</item>
-    </style>
-    <style name="Evento3">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento3</item>
-    </style>
-    <style name="Evento4">
+    <style name="Evento">
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/borda_2</item>
+        <item name="android:padding">10dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:textSize">@dimen/text_size_small</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento4</item>
+        <item name="android:drawable">@drawable/evento_default_small</item>
     </style>
 
-    <style name="Evento5">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorIce</item>
-        <item name="android:background">@color/fundoEvento5</item>
-    </style>
-
-    <style name="Evento6">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorIce</item>
-        <item name="android:background">@color/fundoEvento6</item>
-    </style>
-
-    <style name="Evento7">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento7</item>
-    </style>
-
-    <style name="Evento8">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento8</item>
-    </style>
-
-    <style name="Evento9">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento9</item>
-    </style>
-    <style name="Evento10">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorIce</item>
-        <item name="android:background">@color/fundoEvento10</item>
-    </style>
-    <style name="Evento11">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento11</item>
-    </style>
-    <style name="Evento12">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorIce</item>
-        <item name="android:background">@color/fundoEvento12</item>
-    </style>
-
-    <style name="Evento13">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento13</item>
-    </style>
-    <style name="Evento14">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento14</item>
-    </style>
-
-    <style name="Evento16">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento16</item>
-    </style>
-
-    <style name="Evento18">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento18</item>
-    </style>
-
-    <style name="Evento19">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento19</item>
-    </style>
-
-    <style name="Evento20">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorIce</item>
-        <item name="android:background">@color/fundoEvento20</item>
-    </style>
-
-    <style name="Evento21">
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">@dimen/text_size_small</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:background">@color/fundoEvento21</item>
-    </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

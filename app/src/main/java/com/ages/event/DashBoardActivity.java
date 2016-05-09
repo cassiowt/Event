@@ -52,9 +52,5 @@ public abstract class DashBoardActivity extends Activity {
      * Feedback button click handler
      * @param v
    */
-    public void btnFeedbackClick(View v)
-    {
-        Intent intent = new Intent(getApplicationContext(), FeedbackActivity.class);
-        startActivity(intent);
-    }
+
 }

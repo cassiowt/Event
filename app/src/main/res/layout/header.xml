@@ -2,34 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorIce" >
-
-    <LinearLayout
-        android:id="@+id/panelIconLeft"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:layout_margin="3dp" >
-
-        <Button
-            android:id="@+id/btnHome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/logo_csbc"
-            android:onClick="btnHomeClick" />
-    </LinearLayout>
-
+    android:background="@drawable/app_background">
     <TextView
         android:id="@+id/txtHeading"
         style="@style/heading_text"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
-        android:layout_toLeftOf="@+id/panelIconRight"
-        android:layout_toRightOf="@id/panelIconLeft"
         android:ellipsize="marquee"
         android:focusable="true"
         android:focusableInTouchMode="true"
@@ -37,22 +17,37 @@
         android:marqueeRepeatLimit="marquee_forever"
         android:singleLine="true"
         android:text="@string/eventTitle"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnHome" />
+
+    <LinearLayout
+        android:id="@+id/panelIconLeft"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp">
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/panelIconRight"
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_margin="3dp" >
+        android:layout_margin="3dp"/>
 
-       <!-- <Button
-            android:id="@+id/btnFeedback"
-            android:layout_width="64dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/help_64"
-            android:onClick="btnFeedbackClick" />-->
-    </LinearLayout>
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo_csbc"
+        android:onClick="btnHomeClick"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
