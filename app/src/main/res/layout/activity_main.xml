@@ -35,7 +35,7 @@
         <Button
             android:id="@+id/main_btn_homeDate"
             style="@style/HomeButton"
-            android:drawableTop="@drawable/date_64"
+            android:drawableTop="@drawable/calendar_64"
             android:onClick="onButtonClicker"
             android:text="@string/homeDate" />
 
