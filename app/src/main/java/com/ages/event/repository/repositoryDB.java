@@ -9,10 +9,10 @@ import com.ages.event.util.Constantes;
 /**
  * Created by cassio on 09/05/2016.
  */
-public class RepositoryDB extends SQLiteOpenHelper {
+public class repositoryDB extends SQLiteOpenHelper {
 
 
-    public RepositoryDB(Context context) {
+    public repositoryDB(Context context) {
        super(context, Constantes.BD_HOME, null, Constantes.BD_VERSION);
         SQLiteDatabase db = getReadableDatabase();
     }
