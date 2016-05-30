@@ -8,6 +8,30 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--Themes dialog-->
+    <style name="AppTheme.Dark.Dialog.Sucess" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/branco</item>
+        <item name="android:textColorPrimary">@color/branco</item>
+        <item name="android:background">@color/primary_sucess</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog.Info" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/branco</item>
+        <item name="android:textColorPrimary">@color/branco</item>
+        <item name="android:background">@color/primary_info</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog.Erro" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/branco</item>
+        <item name="android:textColorPrimary">@color/branco</item>
+        <item name="android:background">@color/primary_erro</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog.Alert" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/branco</item>
+        <item name="android:textColorPrimary">@color/branco</item>
+        <item name="android:background">@color/primary_alert</item>
+    </style>
 
     <style name="heading_text">
         <item name="android:textColor">#ff000000</item>

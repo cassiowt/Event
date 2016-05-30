@@ -13,7 +13,6 @@ public class HomeActivity extends DashBoardActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dashboard);
-        setHeader(getString(R.string.HomeActivityTitle), true, true);
     }
 
     /**
@@ -26,34 +25,35 @@ public class HomeActivity extends DashBoardActivity {
 
         switch (v.getId()) {
             case R.id.evento_btn_1:
-                intent = new Intent(this, Activity_Evento_1.class);
+                intent = new Intent(this, Activity_Evento.class);
                 startActivity(intent);
                 break;
 
             case R.id.evento_btn_2:
-                intent = new Intent(this, Activity_Evento_1.class);
+                intent = new Intent(this, Activity_Evento.class);
                 startActivity(intent);
                 break;
 
             case R.id.evento_btn_6:
-                intent = new Intent(this, Activity_Evento_1.class);
+                intent = new Intent(this, Activity_Evento.class);
                 startActivity(intent);
                 break;
 
             case R.id.evento_btn_3:
-                intent = new Intent(this, Activity_Evento_1.class);
+                intent = new Intent(this, Activity_Evento.class);
                 startActivity(intent);
                 break;
 
             case R.id.evento_btn_4:
-                intent = new Intent(this, Activity_Evento_1.class);
+                intent = new Intent(this, Activity_Evento.class);
                 startActivity(intent);
                 break;
 
-            case R.id.evento_btn_5:
-                intent = new Intent(this, Activity_Evento_1.class);
+            case R.id.reuniao_btn:
+                intent = new Intent(this, Activity_Reuniao.class);
                 startActivity(intent);
                 break;
+
             default:
                 break;
         }

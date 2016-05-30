@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/app_background"
     android:orientation="vertical">
 
-    <ViewStub
-        android:id="@+id/vsHeader"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:inflatedId="@+id/header"
-        android:layout="@layout/header" />
+    <include layout="@layout/header" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -164,7 +159,7 @@
                     android:background="@color/fundoEvento14"
                     android:onClick="onButtonClicker"
                     android:text="@string/Evento_14"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:textColor="@color/colorPrimaryDark" />
 
                 <Button
                     android:id="@+id/main_btn_15"
@@ -172,7 +167,7 @@
                     android:background="@color/fundoEvento15"
                     android:onClick="onButtonClicker"
                     android:text="@string/Evento_15"
-                    android:textColor="@color/colorIce"/>
+                    android:textColor="@color/colorIce" />
 
             </LinearLayout>
 
@@ -201,8 +196,8 @@
                     style="@style/Evento"
                     android:background="@color/fundoEvento18"
                     android:onClick="onButtonClicker"
-                    android:textColor="@color/colorIce"
-                    android:text="@string/Evento_18" />
+                    android:text="@string/Evento_18"
+                    android:textColor="@color/colorIce" />
             </LinearLayout>
 
             <LinearLayout
@@ -224,16 +219,31 @@
                     android:background="@color/fundoEvento20"
                     android:onClick="onButtonClicker"
                     android:text="@string/Evento_20" />
+
                 <Button
-                    android:id="@+id/reuniao_btn"
                     style="@style/Evento"
                     android:background="@color/fundoEvento14"
                     android:onClick="onButtonClicker"
-                    android:text="@string/Reuniao"
                     android:textColor="@color/colorPrimaryDark" />
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
 
+                <Button
+                    android:id="@+id/reuniao_btn"
+                    style="@style/Evento"
+                    android:text="@string/Reuniao"
+                    android:background="@color/fundoEvento5"
+                    android:onClick="onButtonClicker"
+                    android:textColor="@color/colorPrimaryDark" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
+    <include layout="@layout/foot" />
+
 </LinearLayout>

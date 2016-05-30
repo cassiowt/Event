@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="branco">#fff</color>
+    <color name="primary_info">#8cc53e</color>
+    <color name="primary_erro">#ff081e</color>
+    <color name="primary_alert">#b6af17</color>
+    <color name="primary_sucess">#1931e9</color>
     <color name="colorIce">#f0f0f0</color>
     <color name="colorPrimary">#ee752d</color>
     <color name="colorPrimaryDark">#0d0b0f</color>

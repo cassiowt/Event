@@ -4,6 +4,7 @@
     <string name="HomeActivityTitle">CSBC 2016</string>
     <string name="HomeActivitySubTitle">XXXVI Congresso da Sociedade Brasileira de Computação</string>
     <string name="ActivityEvento1Title">43º SEMISH - Seminário Integrado de Software e Hardware</string>
+    <string name="ActivityReuniaoTitle">Reuniões e Foruns</string>
     <string name="homeDate">Eventos</string>
     <string name="homeHora">Horas</string>
     <string name="homeSala">Salas</string>
@@ -36,7 +37,8 @@
     <string name="title_activity_feedback">FeedbackActivity</string>
 
     <string name="infoAGES">Copyright AGES 2016|by AGES Team</string>
-
+    <string name="title_activity_activity__reuniao">Reuniões</string>
+    <string name="title_activity_activityist_news">News</string>
 
 
 </resources>
