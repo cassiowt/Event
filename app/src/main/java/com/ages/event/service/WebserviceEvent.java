@@ -28,19 +28,19 @@ import java.util.List;
 public class WebserviceEvent  {
 
     RepositoryDB sqlite_obj;
-
+    boolean atualizado = false;
     Button get, store;
     List<String> list1, list2, list3, list4, list5, list6;
     InputStream is = null;
 
-    //String ip = "http://www.ages.pucrs.br/Event/ws/noticias/listarTodas/ATIVO";
-    String ip = "http://10.32.223.17:8080/Event/ws/noticias/listarTodas/ATIVO";
+    String ip = "http://www.ages.pucrs.br/Event/ws/noticias/listarTodas/ATIVO";
+   // String ip = "http://10.32.223.17:8080/Event/ws/noticias/listarTodas/ATIVO";
     String line = null;
     String result = null;
 
     public boolean service(Activity activity) {
 
-        boolean atualizado = false;
+
 
 // teste se existe conexão
 
@@ -64,8 +64,7 @@ public class WebserviceEvent  {
 
             webservice();
 
-            atualizado = true;
-        }
+           }
 
         return atualizado;
     }
@@ -84,6 +83,7 @@ public class WebserviceEvent  {
 
         } catch (Exception e) {
             Log.e("ERRO", "Webservice 1", e);
+            atualizado = false;
         }
         try {
 
@@ -99,6 +99,7 @@ public class WebserviceEvent  {
             result = sb.toString();
         } catch (Exception e) {
             Log.e("Webservice 2", e.toString());
+            atualizado = false;
         }
         try {
            JSONObject jo = new JSONObject(result);
@@ -125,7 +126,9 @@ public class WebserviceEvent  {
             sqlite();
         } catch (Exception e) {
             Log.e("ERRO","Webservice 3", e);
+            atualizado = false;
         }
+
     }
 
 
@@ -142,5 +145,6 @@ public class WebserviceEvent  {
                     Long.valueOf(list6.get(i)));
         }
         sqlite_obj.close();
+        atualizado = true;
     }
 }

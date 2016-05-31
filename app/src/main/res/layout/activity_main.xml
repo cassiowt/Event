@@ -1,85 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--<android.support.v4.widget.SwipeRefreshLayout-->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/app_background"
     android:orientation="vertical"
     android:paddingTop="@dimen/activity_vertical_margin"
+
     tools:context="com.ages.event.MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo_csbc" />
-
-    <TextView
-        style="@style/heading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/HomeActivityTitle" />
-
-    <TextView
-        style="@style/sub_heading_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/HomeActivitySubTitle" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:background="@drawable/borda_1"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/main_btn_homeDate"
-            style="@style/HomeButton"
-            android:drawableTop="@drawable/calendar_64"
-            android:onClick="onButtonClicker"
-            android:text="@string/homeDate" />
-
-        <Button
-            android:id="@+id/main_btn_homeHoras"
-            style="@style/HomeButton"
-            android:drawableTop="@drawable/time_64"
-            android:onClick="onButtonClicker"
-            android:text="@string/homeHora" />
-
-        <Button
-            android:id="@+id/main_btn_homeSalas"
-            style="@style/HomeButton"
-            android:drawableTop="@drawable/door_64"
-            android:onClick="onButtonClicker"
-            android:text="@string/homeSala" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:layout_weight="1"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_csbc" />
+
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:text="Noticias"
-            android:textSize="24dp"/>
+            style="@style/heading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HomeActivityTitle" />
 
-        <ListView
+        <TextView
+            style="@style/sub_heading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/HomeActivitySubTitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:background="@drawable/borda_1"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/lstNoticias"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_btn_homeDate"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/calendar_64"
+                android:onClick="onButtonClicker"
+                android:text="@string/homeDate" />
+
+            <Button
+                android:id="@+id/main_btn_homeHoras"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/time_64"
+                android:onClick="onButtonClicker"
+                android:text="@string/homeHora" />
+
+            <Button
+                android:id="@+id/main_btn_homeSalas"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/door_64"
+                android:onClick="onButtonClicker"
+                android:text="@string/homeSala" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="200dp" />
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Noticias"
+                android:textSize="24dp" />
+
+            <ListView
+                android:id="@+id/lstNoticias"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/borda_1" />
 
 
+        </LinearLayout>
 
+        <include layout="@layout/foot" />
     </LinearLayout>
-
-    <include layout="@layout/foot" />
-</LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

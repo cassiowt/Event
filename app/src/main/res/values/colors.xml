@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="branco">#fff</color>
+    <color name="bg_color">#effcc8</color>
+    <color name="bg_toast">#6dc729</color>
+    <color name="bg_action">#fc7952</color>
     <color name="primary_info">#8cc53e</color>
     <color name="primary_erro">#ff081e</color>
     <color name="primary_alert">#b6af17</color>

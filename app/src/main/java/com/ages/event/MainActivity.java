@@ -10,6 +10,7 @@ import android.widget.ListView;
 import com.ages.event.bo.RepositoryBO;
 import com.ages.event.model.Noticia;
 import com.ages.event.service.WebserviceEvent;
+import com.ages.event.util.TipoMsg;
 import com.ages.event.util.Util;
 
 import java.util.ArrayList;
@@ -32,12 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
         repositoryBO = new RepositoryBO(this);
 
- /*       webserviceEvent  = new WebserviceEvent();
+        webserviceEvent  = new WebserviceEvent();
 
-         if(webserviceEvent.service(this)){
-             Util.showMsgToast(this, "Não foi possivel atualizar");
+         if(!webserviceEvent.service(this)){
+             Util.showMsgAlertOK(this,"ERRO","Não foi possível executar o WebService", TipoMsg.ERRO);
          }
-*/
+
 
         listaNoticias = repositoryBO.listarNoticias();
 
